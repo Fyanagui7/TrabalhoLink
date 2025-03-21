@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "grafite";
+    src: url('./fontes/Capture\ it.ttf');
+}
 body{
     background-color: black;
     top: 0;
@@ -14,7 +18,7 @@ body{
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 5%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: grafite;
 }
 nav.topo{
     text-align: center;
@@ -33,7 +37,7 @@ nav.topo ul li a{
     border-radius: 5px;
     text-decoration: none;
     color: black;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: grafite;
     
 }
 nav.topo ul li a:hover{
@@ -54,7 +58,7 @@ nav.lateral ul li a{
     border-radius: 5px;
     text-decoration: none;
     color: black;
-    font-family:Arial, Helvetica, sans-serif
+    font-family: grafite;
 } 
 nav.lateral ul li{
     padding: 2rem;
