@@ -1,4 +1,14 @@
 @font-face {
+    font-family: "hell";
+    src: url('/fontes/Hellbone-Demo.otf');
+}
+@font-face {
+    font-family: "fogo";
+    src: url('/fontes/Blazed.ttf');
+}
+
+
+@font-face {
     font-family: "grafite";
     src: url('./fontes/Capture\ it.ttf');
 }
@@ -6,6 +16,7 @@ body{
     background-color: black;
     top: 0;
     margin: 0;
+    background-image: url('./imagem/dark-anime-scenery-vnvmx018iu01fwx9.jpg');    
 }
 #container{
     color: white;
@@ -17,27 +28,27 @@ body{
     margin-right: 10%;
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 5%;
+    margin-top: 150px;
     font-family: grafite;
 }
 nav.topo{
     text-align: center;
-    background-color: blue;
+    background-color: steelblue;
     height: 70px;
 }
 nav.topo ul{
     padding: 26px;
-    color: blue;
+    color: steelblue
 
 }
 nav.topo ul li a{
-    margin-left: 10rem;
+    margin-left: 5rem;
     background-color: grey;
     padding: 1rem;
     border-radius: 5px;
     text-decoration: none;
     color: black;
-    font-family: grafite;
+    font-family: fogo;
     
 }
 nav.topo ul li a:hover{
@@ -47,6 +58,8 @@ nav.topo ul li a:hover{
 nav.lateral{
     margin: left 50px;
     padding: 1rem;
+    position: absolute;
+    list-style-type: none;
 }
 nav.lateral ul{
     margin-top: 1rem;
@@ -58,14 +71,30 @@ nav.lateral ul li a{
     border-radius: 5px;
     text-decoration: none;
     color: black;
-    font-family: grafite;
+    font-family: hell;
 } 
 nav.lateral ul li{
     padding: 2rem;
 }
 nav.lateral ul li a:hover{
-    background-color: green;
+    background-color: rgb(0, 255, 0)7);
     transition: 1s;
 }
-
+span{
+    color: black;
+    float: right;
+    
+}
+h2{
+    font-family: lobster;
+    color: rgba(255, 99, 71, 0.5);
+}
+h1{
+    font-family:"paytone one" ;
+    color: #ff6347;
+}
+h4{
+    font-family: playwrite dk loopet;
+    color: rgb(60, 179, 113);
+}
 
